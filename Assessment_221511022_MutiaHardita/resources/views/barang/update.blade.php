@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2>Form Update Data Barang</h2>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Form Update Data Barang</h2>
         <form method="post" action="{{ route('barang.update', ['id' => $barang->KodeBarang]) }}">
             @csrf
             @method('PUT')
